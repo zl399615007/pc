@@ -1,0 +1,751 @@
+body,html,h1,h2,h3,h4,h5,h6,ul,ol,li,dt,dd,header,menu,section,p,input,td,th{
+    padding: 0;
+    margin: 0;
+}
+img,input{
+    border: none;
+    outline: none;
+    /*����� input���ֵı߿�*/
+    vertical-align: middle;
+}
+em{
+    font-style: normal;
+    text-align: left;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #333333;
+}
+div{
+    font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*ͷ������Ч��*/
+.top_list a:hover{
+    background: url("music.163.com/Images/topbar.png") no-repeat left -155px;
+    text-decoration: none;
+}
+.nav_list  li:hover a{
+    background: url("music.163.com/Images/topbar.png") no-repeat left -268px;
+}
+.nav_list  li:hover em{
+    background: url("music.163.com/Images/topbar.png") no-repeat right -268px;
+}
+.box{
+    width: 100%;
+}
+.goin:hover {
+    background: url("music.163.com/Images/topbar.png") no-repeat right -404px;
+}
+.goin:hover .inner_box{
+    display: block;
+}
+
+/*ͷ��*/
+body{
+min-width: 982px;
+    /*overflow: hidden;*/
+    background: #f5f5f5;
+}
+.head{
+    /*position: absolute;*/
+    width: 1349px;
+    /*top: 0px;*/
+    /*left: 0px;*/
+}
+.allbox{
+   width:982px;
+    margin: 0 auto;
+}
+.head_top{
+    width: 100%;
+    height: 70px;
+    background: url("music.163.com/Images/topbar.png") repeat-x 0 -80px;
+}
+
+
+.logo{
+    height:55px;
+    width: 174px;
+    float: left;
+    font-size: 100%;
+}
+.logo a{
+    background: url("music.163.com/Images/topbar.png") no-repeat 0 15px;
+    height: 33px;
+    width: 157px;
+    float: left;
+    padding: 22px 18px 0 0;
+}
+
+.top_list{
+    float: left;
+    background: url("music.163.com/Images/topbar.png") no-repeat right -300px;
+}
+.top_list li{
+    position: relative;
+    float: left;
+    height: 70px;
+    background: url("music.163.com/Images/topbar.png") no-repeat right -300px;
+}
+.top_list li span{
+    background: none;
+}
+.top_list a{
+    height: 70px;
+    float: left;
+    padding-left: 2px;
+    text-align: center;
+    line-height: 70px;
+}
+.top_list a.z-slt{
+    background:url("music.163.com/Images/topbar.png") no-repeat left -155px;
+}
+.top_list a em{
+    display: block;
+    padding: 0 19px;
+    font-size: 14px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    color: #cccccc;
+    font-style: normal;
+
+}
+
+.top_list a .cor{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 63px;
+    width: 14px;
+    height: 9px;
+    margin-left: -7px;
+    overflow: hidden;
+    background:url("music.163.com/Images/topbar.png") -226px 0 ;
+}
+
+.top_list li .hot{
+    display: block;
+    position: absolute;
+    top: 23px;
+    left: 90px;
+    width: 28px;
+    height: 19px;
+    background:url("music.163.com/Images/topbar.png") -190px 0;
+}
+
+.goin{
+    float: right;
+    height: 45px;
+    margin: 21px 0 0 15px;
+    padding: 0 18px 0 0;
+    position: relative;
+    background:url("music.163.com/Images/topbar.png") right -366px;
+}
+.goin a.g_a{
+    color: #787878;
+    margin-top: 10px;
+    width: 28px;
+    display: block;
+}
+
+.search{
+    float: right;
+    width: 210px;
+    height: 33px;
+    position: relative;
+}
+.search_box{
+    margin-top: 21px;
+    background:url("music.163.com/Images/topbar.png") 0 -550px;
+    float: right;
+    width: 210px;
+    height: 33px;
+}
+.search_box span{
+    display: block;
+    position: relative;
+    margin: 8px 0 0 33px;
+
+}
+.search_box span .j-flag{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    color: #9b9b9b;
+    cursor: text;
+
+}
+.search_box span input{
+    width: 90%;
+    background: transparent;
+    color: #9b9b9b;
+    font-size: 12px;
+
+}
+
+.inner_box{
+    display: none;
+    z-index: 100;
+    position: absolute;
+    top: 38px;
+    right: -16px;
+    width: 158px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+.inner{
+    border-radius: 3px;
+    border:1px solid #404040;
+    background: #2a2a2a;
+    overflow: hidden;
+}
+.inner li{
+    float: left;
+}
+
+.inner li a{
+    width: 100px;
+    height: 39px;
+    overflow: hidden;
+    padding-left: 24px;
+    display: block;
+    line-height: 39px;
+    color: #cccccc;
+}
+.inner .icn{
+    background:url("music.163.com/Images/toplist.png") no-repeat;
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin: 10px 10px 0 -7px;
+}
+.inner .itm1{
+    background-position: 0 0;
+}
+.inner .itm2{
+    background-position: -20px -20px;
+}
+.inner .itm3{
+    background-position: -20px -40px;
+}
+.inner .itm4{
+    background-position: 0px -20px;
+}
+.inner .itm5{
+    background-position: 0px -40px;
+}
+
+.arr{
+    background:url("music.163.com/Images/toplist.png") no-repeat -20px 0;
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    width: 16px;
+    height: 9px;
+    margin-left: 21px;
+}
+
+.showlist{
+    z-index: 120;
+    clear: both;
+    position: absolute;
+    left: 0;
+    top: 59px;
+    width: 240px;
+    box-sizing: border-box;
+    border: 1px solid #bebebe;
+    border-radius: 4px;
+    background: #ffffff;
+    box-shadow: 0 4px 7px #555;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+
+}
+
+.showlist .f-schlist a{
+    cursor: pointer;
+    color: #666666;
+}
+
+.f-schlist{
+    height: 17px;
+    padding: 11px 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.m-schlist .hd{
+    float: left;
+    width: 52px;
+    margin-right: -100px;
+    padding: 10px 0 0 10px;
+    border-right: 1px solid #e2e2e2;
+    line-height: 17px;
+    font-weight: normal;
+}
+
+.m-schlist .hd .hd-i{
+    float:left;
+    margin:2px 4px 0 0;
+    height: 15px;
+    width: 14px;
+}
+.m-schlist .hd i.hd-bg{
+    background: url("music.163.com/Images/icon.png") no-repeat;
+}
+.m-schlist .hd i.fir_{
+    background-position: -35px -300px;
+}
+.m-schlist .hd i.sec_{
+    background-position: -50px -300px;
+
+}
+.m-schlist .hd i.three_{
+    background-position: -35px -320px;
+}
+.m-schlist .hd i.four_{
+    background-position: -60px -862px;
+}
+.f-cb li{
+
+    width:100%
+}
+.m-schlist ul{
+    margin-left: 62px;
+    margin-top: -1px;
+    padding: 6px 0 5px;
+    border-top: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+}
+.m-schlist li a{
+    display: block;
+    width: 100%;
+    text-indent: 12px;
+    line-height: 24px;
+}
+
+.head_down{
+    background: url("music.163.com/Images/topbar.png") repeat-x 0 -230px;
+    height: 35px;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+.head:after{
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+.down-nav{
+    width: 804px;
+    margin: 0 auto;
+    padding-left: 176px;
+}
+.nav_list{
+
+}
+.nav_list li{
+    float: left;
+    display: inline;
+    margin: 0 17px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.nav_list a{
+    padding-left:14px;
+    float: left;
+    overflow: hidden;
+}
+.nav_list em{
+    display: inline-block;
+    padding-right: 14px;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #650303;
+    height: 35px;
+    float: left;
+    background-position: right -268px;
+
+}
+ a.nav-fir{
+    background: url("music.163.com/Images/topbar.png") no-repeat left -268px;
+}
+a.nav-fir em{
+    background: url("music.163.com/Images/topbar.png") no-repeat right -268px;
+}
+
+/*�轮播�*/
+#carousel{
+    width: 1349px;
+
+}
+#carousel .allbox{
+    position: relative;
+    width: 982px;
+    height: 336px;
+    margin: 0 auto;
+}
+.ban{
+    width: 982px;
+    height: 336px;
+    position: relative;
+}
+.ban img{
+    display: block;
+    width: 730px;
+    height: 336px;
+}
+.ban .btnl,.ban .btnr{
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    width: 37px;
+    height: 63px;
+    text-indent: -9999px;
+    background-image: url("music.163.com/Images/banner.png");
+}
+.ban .left{
+    left: -60px;
+    background-position: 0 -360px;
+}
+.ban .right{
+    right: -60px;
+    background-position: 0 -508px;
+}
+
+.ban .btn{
+    position: absolute;
+    top: 310px;
+    left:0;
+    width: 730px;
+    height: 20px;
+    text-align: center;
+}
+.btn .doog:hover{
+    background-position: -16px -343px;
+}
+.btn .doog{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("music.163.com/Images/banner.png") no-repeat 3px -343px;
+}
+.btn .zlt{
+    background-position: -16px -343px;
+}
+.car_fix{
+    position: absolute;
+    top:0;
+    right: -1px;
+    width: 254px;
+    height: 336px;
+    background: url("music.163.com/Images/download.png")no-repeat 0 0;
+}
+.car_fix a{
+    display: block;
+    width: 215px;
+    height: 56px;
+    margin: 212px 0 0 19px;
+    background: url("music.163.com/Images/download.png")no-repeat 0 9999px;
+    text-indent: -9999px;
+}
+.car_fix p{
+    margin: 10px auto;
+    text-align: center;
+    color: #8d8d8d;
+}
+.shadow{
+display: block;
+position: absolute;
+top: 0px;
+left: -20px;
+width: 20px;
+height: 336px;
+background: url("music.163.com/Images/banner.png") no-repeat -1px 0;
+}
+.shadowr{
+display: block;
+position: absolute;
+top: 0px;
+width: 20px;
+height: 336px;
+left: auto;
+right: -20px;
+background: url("music.163.com/Images/banner.png") no-repeat -20px 0;
+}
+
+
+
+
+
+
+/*内容*/
+.content{
+    width: 980px;
+    min-height: 1505px;
+    margin: 0 auto;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+    background:url("music.163.com/Images/wrap1.png") repeat-y 100% 100%;
+}
+
+.content-L{
+    float: left;
+    width: 100%;
+    margin-right: -250px;
+
+}
+
+.c-Left{
+    margin-right: 251px;
+}
+.c-Lbox{
+    padding: 20px 20px 40px;
+}
+.c_head{
+    height: 33px;
+    padding: 0 10px 0 34px;
+    background: url("music.163.com/Images/index.png") no-repeat -225px -156px;
+    border-bottom: 2px solid #c10D0c;
+}
+.c_head .tit{
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+}
+.no_dec,.no_dec:hover{
+    text-decoration: none;
+}
+.c_head .tab{
+    float: left;
+    margin: 7px 0 0 20px;
+}
+
+.tab a{
+    color: #666666;
+}
+.tab .line{
+    margin: 0 10px;
+    color: #cccccc;
+}
+.c_head .more{
+    float: right;
+    margin-top: 9px;
+}
+.more .c-ma{
+    color: #666666;
+}
+.more .c-mi{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+    vertical-align: middle;
+    background: url("music.163.com/Images/index.png") no-repeat 0 -240px;
+}
+
+.m-cvrlst{
+    margin: 20px 0 0 -42px;
+}
+.m-cvrlst:after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.c-hot .m-cvrlst li{
+    width: 140px;
+    height: 204px;
+    padding-left: 42px;
+}
+.m-cvrlst li{
+
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 0 30px 50px;
+    line-height: 1.4;
+}
+.u-cover{
+    position: relative;
+    display: block;
+    width: 140px;
+    height: 140px;
+}
+.u-cover img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.u-cover .msk{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("music.163.com/Images/coverall.png") no-repeat 0 0;
+}
+.u-cover .bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 27px;
+    background: url("music.163.com/Images/coverall.png") no-repeat 0 -537px;
+    color: #cccccc;
+}
+.icon-play{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    width: 16px;
+    height: 17px;
+    background: url("music.163.com/Images/iconall.png") no-repeat 0 0;
+
+}
+.icon-headset{
+    float: left;
+    width: 14px;
+    height: 11px;
+    margin: 9px 5px 9px 10px;
+    background: url("music.163.com/Images/iconall.png") no-repeat 0 -24px;
+}
+.icon-nb{
+    float: left;
+    margin: 7px 0 0 0;
+}
+.m-cvrlst .dec{
+    margin: 8px 0 3px;
+    font-size: 14px;
+    width: 100%;
+}
+.c-kaola{
+    margin-bottom: 40px;
+
+}
+.c-kaola a{
+    display: block;
+    height: 75px;
+    background: url("music.163.com/Images/guanggao.png") no-repeat;
+}
+
+/*新碟上架*/
+.n_outer{
+    position: relative;
+    zoom:1;
+    height: 186px;
+    margin: 20px 0 37px;
+    border: 1px solid #d3d3d3;
+}
+.n_outer .n_inner{
+    height: 184px;
+    padding-left: 16px;
+    background: #f5f5f5;
+    border: 1px solid #ffffff;
+}
+.n_outer .n_left,.n_outer .n_right{
+    position: absolute;
+    top: 71px;
+    width: 17px;
+    height: 17px;
+}
+.n_outer .n_left{
+    left: 4px;
+    background: url("music.163.com/Images/index.png") no-repeat -260px -75px;
+
+}
+.n_outer .n_right{
+    background: url("music.163.com/Images/index.png") no-repeat -300px -75px;
+}
+.n_outer .roll{
+    float: left;
+    width: 645px;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    zoom: 1;
+}
+.roll .roller-flag{
+    position: absolute;
+    top:0;
+    width: 645px;
+    margin: 28px 0 0 0;
+}
+.roll li{
+    float: left;
+    display: inline;
+    width: 118px;
+    height: 150px;
+    margin-left: 11px;
+    background:url("music.163.com/Images/index.png") no-repeat -260px 100px;
+}
+.roll .rf_ibox{
+    margin-bottom: 7px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: block;
+}
+.n_outer p{
+    width: 90%;
+    line-height: 18px;
+}
+.f-thide{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.p1{
+    color: #000000;
+}
+.p2{
+    color: #666666;
+}
+.roll img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.mak{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 118px;
+    height: 100px;
+    background: url("music.163.com/Images/coverall.png") no-repeat 0 -570px;
+}
+.icon-pl{
+    position: absolute;
+    left: 72px;
+    width: 22px;
+    right: 10px;
+    bottom: 5px;
+    height: 22px;
+    background: url("music.163.com/Images/iconall.png") no-repeat 0 -85px;
+
+}
+
+
+
+
+
